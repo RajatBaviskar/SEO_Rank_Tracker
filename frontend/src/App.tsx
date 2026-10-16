@@ -14,7 +14,7 @@ import { useApp } from "./context/AppContext";
 import Loading from "./components/Loading";
 
 export default function App() {
-    const  {user, loading} = useApp
+    const  {user, loading} = useApp();
 
 
     const location = useLocation();
